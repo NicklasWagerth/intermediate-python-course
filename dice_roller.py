@@ -1,6 +1,6 @@
 #This is like taking the first walk on the moon
 import random
-dice_rolls = 2
+dice_rolls = 3
 def main():
     dice_sum = 0
     for i in range(0, dice_rolls):
