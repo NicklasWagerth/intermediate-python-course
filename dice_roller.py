@@ -1,6 +1,8 @@
 #This is like taking the first walk on the moon
+import random
 def main():
-  print('You rolled a die and feel like a frikn King!')
-
+    roll = random.randint(1,6)
+  #print('You rolled a die and feel like a frikn King!')
+    print(f'You rolled a {roll}')
 if __name__== "__main__":
   main()
