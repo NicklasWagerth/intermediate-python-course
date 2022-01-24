@@ -1,8 +1,10 @@
 #This is like taking the first walk on the moon
 import random
 dice_rolls = 2
+player = Joker
 def main():
     dice_sum = 0
+    player = Input ("what's your name?")
     for i in range(0, dice_rolls):
         roll = random.randint(1,6)
         dice_sum += roll
